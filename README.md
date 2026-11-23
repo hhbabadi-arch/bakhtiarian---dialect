@@ -1,2 +1,3 @@
 # bakhtiarian---dialect
-comprehensive dictionary of  bakhtiarian - dialect.
+comprehensive dictionary of  bakhtiarian - dialect
+
