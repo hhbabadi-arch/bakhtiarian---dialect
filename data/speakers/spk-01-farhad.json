@@ -1,0 +1,36 @@
+{
+  "speaker_id": "SPK-01",
+  "name": "فرهاد امانی بابادی",
+  "status": "complete",
+  "personal": { "gender": "male", "age": 50, "job": "مهندس", "branch": "هفت‌لنگ" },
+  "language_profile": { "proficiency": "medium", "learned_childhood": false, "home_language": "fa" },
+  "lexicon": { "آب": "اوو", "پدر": "بوو", "گفتن": "گودن" },
+  "folklore": { "proverb": "حالا که رهدی ز دینس...", "lullaby": "ای خدا بارون بوار...", "riddle": "هو چنه برد سر برد..." }
+}{
+  "speaker_id": "SPK-02",
+  "name": "سجاد رئیسی",
+  "status": "complete",
+  "personal": { "gender": "male", "age": 50, "job": "کارگر", "branch": "هفت‌لنگ" },
+  "language_profile": { "proficiency": "excellent", "learned_childhood": true, "home_language": "bqi", "children_speak": "partially" },
+  "lexicon": { "آب": "او", "پدر": "بووه", "گفتن": "واتن" },
+  "sentences": [ { "fa": "من به خانه می‌روم", "bqi": "مو رَمه خونه" } ],
+  "folklore": { "proverb": "هر کسی کو دور ماند از اصل خویش...", "lullaby": "دایه دایه وقت جنگه...", "riddle": "دس دسو - پا پسو - کله کدو" }
+}{
+  "speaker_id": "SPK-03",
+  "name": "صغری میراحمدی",
+  "status": "complete",
+  "personal": { "gender": "female" },
+  "language_profile": { "proficiency": "excellent", "learned_childhood": true, "home_language": "bqi" },
+  "lexicon": { "فردا": "صبا", "سرد": "سَردِه" },
+  "sentences": [ { "fa": "فردا به بازار می‌روم", "bqi": "صُبا رُم بازار" } ],
+  "folklore": { "proverb": "کُورِ سَگ کُور...", "lullaby": "لالالا لالالا، لالا گُلِ خوشبویَم...", "riddle": "هَو هَفت جُفتِه..." }
+}{
+  "speaker_id": "SPK-04",
+  "name": "ساناز بهرامی",
+  "status": "in_progress",
+  "personal": { "gender": "female" },
+  "language_profile": { "proficiency": "excellent", "learned_childhood": true, "home_language": "bqi", "children_speak": "yes" },
+  "lexicon": { "آمدن": "اویدن", "گفتن": "گوتن", "سگ": "سگ" },
+  "sentences": [ { "fa": "من به خانه می‌روم", "bqi": "مو اِرُم خونه" } ],
+  "folklore": { "note": "داده‌های فولکلور در انتظار تکمیل" }
+}
