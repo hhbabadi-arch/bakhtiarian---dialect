@@ -1,1 +1,10 @@
-
+- name: Create Release
+  uses: softprops/action-gh-release@v2
+  with:
+    files: |
+      dist/bakhtiari-book.pdf
+      dist/bakhtiari-pocket.pdf
+      dist/bakhtiari.html
+      dist/bakhtiari.epub
+      dist/bakhtiari-fxl.epub
+      dist/braille/bakhtiari.brf
