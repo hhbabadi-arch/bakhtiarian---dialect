@@ -183,7 +183,27 @@
 
     let allVocab = [];
 
-    async function loadAllData() {
+    async // بارگذاری واژه‌نامه سه‌زبانه
+try {
+  const triRes = await fetch('data/lexicon/lexicon-trilingual.json');
+  if (triRes.ok) {
+    const triData = await triRes.json();
+    for (const [fa, bqi] of Object.entries(triData.entries)) {
+      allVocab.push({ farsi: fa, bakhtiari: bqi, speaker: triData.category });
+    }
+  }
+} catch (e) { console.warn("خطا در خواندن واژه‌نامه سه‌زبانه", e); }
+
+// بارگذاری واژه‌نامه پنج‌زبانه
+try {
+  const quinRes = await fetch('data/lexicon/lexicon-quinquelingual.json');
+  if (quinRes.ok) {
+    const quinData = await quinRes.json();
+    for (const [fa, bqi] of Object.entries(quinData.entries)) {
+      allVocab.push({ farsi: fa, bakhtiari: bqi, speaker: quinData.category });
+    }
+  }
+} catch (e) { console.warn("خطا در خواندن واژه‌نامه پنج‌زبانه", e); } loadAllData() {
       const speakerContainer = document.getElementById('speakers-list');
       const tbody = document.getElementById('vocab-body');
       
