@@ -1,1 +1,12 @@
-
+bakhtiari-project/
+├── docs/                          ← سایت (PWA + i18n + ۲ جست‌وجو)
+├── src/
+│   ├── bakhtiari-book.tex         ← A4
+│   ├── bakhtiari-pocket.tex       ← A5
+│   ├── braille/fa-custom.utb      ← جدول بریل
+│   └── ...
+├── scripts/
+│   ├── build-fxl-epub.py          ← FXL
+│   ├── build-braille.sh           ← بریل
+│   └── ...
+└── ...
