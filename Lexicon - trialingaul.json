@@ -17,3 +17,55 @@
     "کوه": "mountain (جبل)"
   }
 }
+{
+  "version": "1.0",
+  "generated": "2026-11-17",
+  "items": [
+    {
+      "id": "FOLK-KUHRANG-001",
+      "type": "verse",
+      "genre": "lyric_love",
+      "title_fa": "تال — یادگاری مو",
+      "title_en": "Tāl — A Hair Keepsake",
+      "title_ar": "تال — تذكار من الشعر",
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "source_name": "[گویشور]",
+      "date_recorded": null,
+      "status": "oral_pending_recording",
+      "ipa_status": "pending_review",
+      "text_bqi": [
+        "تال یعنی یک عدد مو",
+        "به تال میت بدم سی یادگاری",
+        "یک عدد از موهایت به من بده به عنوان یادگاری"
+      ],
+      "ipa": [
+        "/tɒːl jæʔniː jæk ʔædæd muː/",
+        "/be tɒːl miːt bodom siː jɒːdegɒːriː/",
+        "/jæk ʔædæd æz muːhɒːjæt be mæn bede be ʔonvɒːn-e jɒːdegɒːriː/"
+      ],
+      "translations": {
+        "fa": "«تال» یعنی یک تار مو. می‌خواهم یک تار به تو بدهم برای یادگاری؛ تو هم یک تار از موهایت به من بده به‌عنوان یادگاری.",
+        "en": "'Tāl' means a strand of hair. I want to give you a strand as a keepsake; give me one strand of your hair as a keepsake.",
+        "ar": "«تال» تعني خصلة شعر. أريد أن أعطيك خصلة تذكارًا؛ فأعطني خصلة من شعرك تذكارًا."
+      },
+      "related_entries": [
+        "LEX-2026-TAL-001",
+        "LEX-2026-MU-001",
+        "LEX-2026-YADEGARI-001",
+        "LEX-2026-SI-001"
+      ],
+      "cultural_notes": {
+        "fa": "مو (تال) در فرهنگ بختیاری نماد پیوند عاطفی، وفاداری و حافظه است.",
+        "en": "Hair (tāl) in Bakhtiari culture symbolizes emotional bond, loyalty, and memory.",
+        "ar": "الشعر (تال) في الثقافة البختيارية يرمز إلى الرابطة العاطفية والوفاء والذاكرة."
+      },
+      "license": "CC-BY-4.0",
+      "archive": {
+        "audio": null,
+        "video": null,
+        "transcription": null
+      }
+    }
+  ]
+}
