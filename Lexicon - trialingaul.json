@@ -1,4 +1,4 @@
-{
+ju{
   "category": "واژگان کلیدی (سه زبانه: فارسی، انگلیسی، عربی)",
   "source_speaker": "پروژه",
   "entries": {
@@ -66,6 +66,312 @@
         "video": null,
         "transcription": null
       }
+    }
+  ]
+}{
+  "version": "1.3",
+  "generated": "2026-11-17",
+  "language": {
+    "iso639_3": "bqi",
+    "glottolog": "bakh1245",
+    "name_fa": "بختیاری",
+    "name_en": "Bakhtiari"
+  },
+  "entries": [
+    {
+      "id": "LEX-2026-DARAK-001",
+      "lexeme": "دَرَک",
+      "ipa": "/daˈrak/",
+      "transliteration": "darak",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "چوب، به‌ویژه چوب بلوط",
+          "en": "wood, especially oak wood",
+          "ar": "خشب البلوط",
+          "example_fa": null,
+          "example_bqi": null
+        }
+      ],
+      "derived": [
+        {
+          "form": "بی‌دَرَک",
+          "ipa": "/bi-daˈrak/",
+          "fa": "نپخته، کم‌تجربه",
+          "en": "inexperienced, unripe",
+          "ar": "غير ناضج"
+        }
+      ],
+      "false_friend": true,
+      "revision": "REV-001",
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "status": "approved",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-DELAK-001",
+      "lexeme": "دِلَک",
+      "ipa": "/deˈlak/",
+      "transliteration": "delak",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "سپر، محافظ",
+          "en": "shield, protector",
+          "ar": "دِرع"
+        },
+        {
+          "sense_id": 2,
+          "fa": "تکیه‌گاه",
+          "en": "support, prop",
+          "ar": "سند"
+        },
+        {
+          "sense_id": 3,
+          "fa": "نوعی پوشاک محلی زنان بختیاری",
+          "en": "a traditional Bakhtiari women's garment",
+          "ar": "لباس تقليدي نسائي"
+        }
+      ],
+      "false_friend": true,
+      "revision": "REV-001",
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "status": "approved",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-DASGIR-001",
+      "lexeme": "دَسگیر آویدَن",
+      "ipa": "/dæsˈgir ɒːviˈdæn/",
+      "transliteration": "dasgir āvidan",
+      "pos": "compound_verb",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "درک کردن، متوجه شدن",
+          "en": "to understand, to realize",
+          "ar": "أن يفهم",
+          "example_bqi": "دَسگیرِت آوید؟",
+          "example_fa": "متوجه شدی؟",
+          "example_en": "Did you understand?",
+          "example_ar": "هل فهمت؟"
+        }
+      ],
+      "revision": "REV-001",
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "status": "approved",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-TAL-001",
+      "lexeme": "تال",
+      "ipa": "/tɒːl/",
+      "transliteration": "tāl",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "تار مو، یک رشته مو",
+          "en": "a strand of hair",
+          "ar": "خصلة شعر",
+          "example_bqi": "تال یعنی یک عدد مو",
+          "example_fa": "«تال» یعنی یک تار مو",
+          "example_en": "tāl means a strand of hair",
+          "example_ar": "«تال» تعني خصلة شعر"
+        }
+      ],
+      "cultural_note_fa": "نماد پیوند عاطفی و پیمان یادگاری در فرهنگ بختیاری",
+      "cultural_note_en": "Symbol of emotional bond and keepsake pact in Bakhtiari culture",
+      "folklore_ref": "FOLK-KUHRANG-001",
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-MU-001",
+      "lexeme": "مو",
+      "ipa": "/muː/",
+      "transliteration": "mu",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "مو",
+          "en": "hair",
+          "ar": "شعر"
+        }
+      ],
+      "region": "کوهرنگ",
+      "source_id": "SPK-XX",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-YADEGARI-001",
+      "lexeme": "یادگاری",
+      "ipa": "/jɒːdegɒːriː/",
+      "transliteration": "yādegāri",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "یادگاری، سوغات عاطفی",
+          "en": "keepsake, memento",
+          "ar": "تذكار"
+        }
+      ],
+      "folklore_ref": "FOLK-KUHRANG-001",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-SI-001",
+      "lexeme": "سی",
+      "ipa": "/siː/",
+      "transliteration": "si",
+      "pos": "preposition",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "برای، جهت",
+          "en": "for",
+          "ar": "لِـ / من أجل",
+          "example_bqi": "سی یادگاری",
+          "example_fa": "برای یادگاری",
+          "example_en": "for a keepsake"
+        }
+      ],
+      "folklore_ref": "FOLK-KUHRANG-001",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-TANGE-001",
+      "lexeme": "تنگه",
+      "ipa": "/tæŋæ/",
+      "transliteration": "tange",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "دره باریک، گذرگاه کوهستانی",
+          "en": "gorge, narrow valley",
+          "ar": "مَضيق",
+          "example_bqi": "تنگه قربان",
+          "example_fa": "تنگه قربان",
+          "example_en": "Qorban Gorge"
+        }
+      ],
+      "compounds": ["تنگه قربان"],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-DANG-001",
+      "lexeme": "دَنگ",
+      "ipa": "/dæŋg/",
+      "transliteration": "dang",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "سازه سنگی، سد سنگی",
+          "en": "stone structure, stone dam",
+          "ar": "بناء حجري"
+        },
+        {
+          "sense_id": 2,
+          "fa": "در نام محوطه «دنگ قربان»",
+          "en": "in the toponym 'Dang-e Qorban'",
+          "ar": "في اسم الموقع «دنگ قربان»"
+        }
+      ],
+      "compounds": ["دنگ قربان"],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-CHAM-001",
+      "lexeme": "چَم",
+      "ipa": "/tʃæm/",
+      "transliteration": "čam",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "رودخانه فصلی، مسیر آب",
+          "en": "seasonal river, watercourse",
+          "ar": "نهر موسمي"
+        }
+      ],
+      "compounds": ["چم سوخته"],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-SUKHTE-001",
+      "lexeme": "سوخته",
+      "ipa": "/suːxte/",
+      "transliteration": "suxte",
+      "pos": "adjective",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "خشک‌شده، بی‌آب",
+          "en": "dried up, waterless",
+          "ar": "جافّ"
+        }
+      ],
+      "compounds": ["چم سوخته"],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-QORBAN-001",
+      "lexeme": "قربان",
+      "ipa": "/qorbɒːn/",
+      "transliteration": "qorbān",
+      "pos": "proper_noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "قربان؛ نام محلی محوطه",
+          "en": "Qorban; local toponym",
+          "ar": "قُربان؛ اسم موقع"
+        }
+      ],
+      "compounds": ["تنگه قربان", "دنگ قربان"],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-KUH-001",
+      "lexeme": "کوه",
+      "ipa": "/kuːh/",
+      "transliteration": "kuh",
+      "pos": "noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "کوه",
+          "en": "mountain",
+          "ar": "جبل"
+        }
+      ],
+      "region": "کوهرنگ",
+      "status": "proposed",
+      "ipa_status": "pending_review"
     }
   ]
 }
