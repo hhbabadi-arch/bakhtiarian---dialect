@@ -1,1 +1,12 @@
-
+JSON (lexicon + folklore + locations)
+        │
+        ▼
+scripts/import/import.py
+        │
+        ▼
+data/bakhtiari.db  ← SQLite (یا PostgreSQL)
+        │
+        ├──→ کوئری‌های جست‌وجو
+        ├──→ API پروژه
+        ├──→ سایت (Docsify + MiniSearch)
+        └──→ پرونده یونسکو
