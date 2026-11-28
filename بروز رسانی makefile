@@ -1,1 +1,4 @@
+.PHONY: braille
 
+braille:
+	bash scripts/build-braille.sh
