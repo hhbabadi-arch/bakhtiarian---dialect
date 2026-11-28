@@ -1,1 +1,22 @@
 
+\section{واژه‌ها در پنج زبان}
+\bilingualhead{}{Words in Five Languages}
+
+\begingroup
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{1.8cm} l >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.8cm} >{\raggedright\arraybackslash}p{1.5cm} >{\raggedright\arraybackslash}p{1.8cm} X@{}}
+\toprule
+\textbf{بختیاری} & \textbf{IPA} & \textbf{فارسی} & \textbf{English} & \textbf{العربیة} & \textbf{Français} & \textbf{Deutsch} \\
+\midrule
+دَرَک & {\ipafont /daˈrak/} & چوب بلوط & oak wood & خشب البلوط & bois de chêne & Eichenholz \\
+دِلَک & {\ipafont /deˈlak/} & سپر & shield & دِرع & bouclier & Schild \\
+دَسگیر آویدَن & {\ipafont /dæsˈgir ɒːviˈdæn/} & درک کردن & to understand & أن يفهم & comprendre & verstehen \\
+تال & {\ipafont /tɒːl/} & تار مو & strand of hair & خصلة شعر & mèche & Haarsträhne \\
+یادگاری & {\ipafont /jɒːdegɒːriː/} & یادگاری & keepsake & تذكار & souvenir & Andenken \\
+تنگه & {\ipafont /tæŋæ/} & تنگه & gorge & مَضيق & gorge & Schlucht \\
+دَنگ & {\ipafont /dæŋg/} & سازه سنگی & stone structure & بناء حجري & structure & Steinstruktur \\
+چَم & {\ipafont /tʃæm/} & رودخانه فصلی & seasonal river & نهر موسمي & rivière & saisonaler Fluss \\
+سوخته & {\ipafont /suːxte/} & خشک‌شده & dried up & جافّ & asséché & ausgetrocknet \\
+\bottomrule
+\end{tabularx}
+\endgroup
