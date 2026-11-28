@@ -1,1 +1,2 @@
-
+python3 scripts/import/import.py --db data/bakhtiari.db \
+    --lexicon data/lexicon-quinquelingual.json
