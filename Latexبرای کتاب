@@ -1,1 +1,18 @@
+\section{واژه‌ها در سه زبان}
+\bilingualhead{}{Words in Three Languages}
 
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.8cm} l >{\raggedright\arraybackslash}p{3cm} X@{}}
+\toprule
+\textbf{بختیاری} & \textbf{IPA} & \textbf{فارسی} & \textbf{English} \\
+\midrule
+دَرَک & {\ipafont /daˈrak/} & چوب بلوط & oak wood \\
+دِلَک & {\ipafont /deˈlak/} & سپر، تکیه‌گاه & shield, support \\
+دَسگیر آویدَن & {\ipafont /dæsˈgir ɒːviˈdæn/} & درک کردن & to understand \\
+تال & {\ipafont /tɒːl/} & تار مو & strand of hair \\
+یادگاری & {\ipafont /jɒːdegɒːriː/} & یادگاری & keepsake \\
+تنگه & {\ipafont /tæŋæ/} & تنگه & gorge \\
+دَنگ & {\ipafont /dæŋg/} & سازه سنگی & stone structure \\
+چَم & {\ipafont /tʃæm/} & رودخانه فصلی & seasonal river \\
+سوخته & {\ipafont /suːxte/} & خشک‌شده & dried up \\
+\bottomrule
+\end{tabularx}
