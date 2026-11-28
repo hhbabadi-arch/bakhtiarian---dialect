@@ -1,1 +1,590 @@
-
+{
+  "version": "1.4",
+  "generated": "2026-11-17",
+  "languages": ["fa", "en", "ar", "fr", "de"],
+  "categories": [
+    {
+      "id": "linguistics",
+      "name": {
+        "fa": "اصطلاحات زبان‌شناسی",
+        "en": "Linguistic Terms",
+        "ar": "المصطلحات اللغوية",
+        "fr": "Termes linguistiques",
+        "de": "Sprachwissenschaftliche Begriffe"
+      },
+      "terms": [
+        {
+          "id": "entry",
+          "term": {
+            "fa": "مدخل",
+            "en": "entry / lexeme",
+            "ar": "مُدخَل / مفردة",
+            "fr": "entrée / lexème",
+            "de": "Eintrag / Lexem"
+          },
+          "def": {
+            "fa": "واحد اصلی فرهنگ؛ هر واژه با معنا، آوانگاری و مثال",
+            "en": "The basic unit of a dictionary; a word with meaning, transcription, and examples",
+            "ar": "الوحدة الأساسية في المعجم؛ كلمة مع معناها ونسخها الصوتي وأمثلتها",
+            "fr": "L'unité de base d'un dictionnaire ; un mot avec sens, transcription et exemples",
+            "de": "Die Grundeinheit eines Wörterbuchs; ein Wort mit Bedeutung, Transkription und Beispielen"
+          }
+        },
+        {
+          "id": "transcription",
+          "term": {
+            "fa": "آوانگاری",
+            "en": "transcription",
+            "ar": "النقل الصوتي",
+            "fr": "transcription",
+            "de": "Transkription"
+          },
+          "def": {
+            "fa": "نمایش آوایی واژه با نمادهای استاندارد",
+            "en": "Phonetic representation of a word using standard symbols",
+            "ar": "التمثيل الصوتي للكلمة باستخدام رموز معيارية",
+            "fr": "Représentation phonétique d'un mot à l'aide de symboles standards",
+            "de": "Phonetische Darstellung eines Wortes mit Standardsymbolen"
+          }
+        },
+        {
+          "id": "false-friend",
+          "term": {
+            "fa": "هم‌ریخت گمراه‌کننده",
+            "en": "false friend",
+            "ar": "صديق كاذب / لفظ مضلِّل",
+            "fr": "faux ami",
+            "de": "falscher Freund"
+          },
+          "def": {
+            "fa": "واژه‌ای که در دو زبان شبیه است اما معنا متفاوت دارد",
+            "en": "A word similar in form across languages but different in meaning",
+            "ar": "كلمة متشابهة في الشكل بين لغتين لكن معناها مختلف",
+            "fr": "Un mot de forme similaire entre deux langues mais de sens différent",
+            "de": "Ein Wort mit ähnlicher Form in zwei Sprachen, aber unterschiedlicher Bedeutung"
+          }
+        },
+        {
+          "id": "derivative",
+          "term": {
+            "fa": "مشتق",
+            "en": "derivative",
+            "ar": "مُشتقّ",
+            "fr": "dérivé",
+            "de": "Ableitung"
+          },
+          "def": {
+            "fa": "واژه‌ای که از ریشه اصلی ساخته می‌شود",
+            "en": "A word formed from a root word",
+            "ar": "كلمة تُشتق من جذر أصلي",
+            "fr": "Un mot formé à partir d'une racine",
+            "de": "Ein aus einer Wurzel gebildetes Wort"
+          }
+        },
+        {
+          "id": "compound",
+          "term": {
+            "fa": "ترکیب",
+            "en": "compound",
+            "ar": "مُرَكَّب",
+            "fr": "composé",
+            "de": "Kompositum"
+          },
+          "def": {
+            "fa": "دو یا چند واژه که یک واحد معنایی می‌سازند",
+            "en": "Two or more words forming a single semantic unit",
+            "ar": "كلمتان أو أكثر تشكلان وحدة دلالية",
+            "fr": "Deux mots ou plus formant une unité sémantique",
+            "de": "Zwei oder mehr Wörter, die eine semantische Einheit bilden"
+          }
+        },
+        {
+          "id": "folklore",
+          "term": {
+            "fa": "فولکلور",
+            "en": "folklore",
+            "ar": "الفلكلور / التراث الشعبي",
+            "fr": "folklore",
+            "de": "Folklore"
+          },
+          "def": {
+            "fa": "ادبیات شفاهی؛ شامل ضرب‌المثل، بیت، روایت",
+            "en": "Oral literature; including proverbs, verses, and narratives",
+            "ar": "الأدب الشفهي؛ يشمل الأمثال والأبيات والروايات",
+            "fr": "Littérature orale ; comprenant proverbes, vers et récits",
+            "de": "Mündliche Literatur; umfasst Sprichwörter, Verse und Erzählungen"
+          }
+        },
+        {
+          "id": "verse",
+          "term": {
+            "fa": "بیت",
+            "en": "verse",
+            "ar": "بيت شعري",
+            "fr": "vers",
+            "de": "Vers"
+          },
+          "def": {
+            "fa": "شعر کوتاه محلی",
+            "en": "Short local poem",
+            "ar": "قصيدة محلية قصيرة",
+            "fr": "Court poème local",
+            "de": "Kurzes lokales Gedicht"
+          }
+        },
+        {
+          "id": "narrative",
+          "term": {
+            "fa": "روایت",
+            "en": "narrative",
+            "ar": "رواية / حكاية",
+            "fr": "récit",
+            "de": "Erzählung"
+          },
+          "def": {
+            "fa": "داستان یا خاطره شفاهی",
+            "en": "An oral story or memory",
+            "ar": "قصة شفهية أو ذكرى",
+            "fr": "Une histoire orale ou un souvenir",
+            "de": "Eine mündliche Geschichte oder Erinnerung"
+          }
+        },
+        {
+          "id": "speaker",
+          "term": {
+            "fa": "گویشور",
+            "en": "speaker",
+            "ar": "متحدّث",
+            "fr": "locuteur",
+            "de": "Sprecher"
+          },
+          "def": {
+            "fa": "فرد بومی که به گویش صحبت می‌کند",
+            "en": "A native person who speaks the dialect",
+            "ar": "شخص أصلي يتحدث باللهجة",
+            "fr": "Une personne native qui parle le dialecte",
+            "de": "Eine einheimische Person, die den Dialekt spricht"
+          }
+        },
+        {
+          "id": "etymology",
+          "term": {
+            "fa": "ریشه‌شناسی",
+            "en": "etymology",
+            "ar": "علم أصل الكلمة",
+            "fr": "étymologie",
+            "de": "Etymologie"
+          },
+          "def": {
+            "fa": "بررسی اصل و تاریخچه واژه",
+            "en": "Study of the origin and history of a word",
+            "ar": "دراسة أصل الكلمة وتاريخها",
+            "fr": "Étude de l'origine et de l'histoire d'un mot",
+            "de": "Untersuchung des Ursprungs und der Geschichte eines Wortes"
+          }
+        },
+        {
+          "id": "sense",
+          "term": {
+            "fa": "معنا",
+            "en": "sense",
+            "ar": "معنى",
+            "fr": "sens",
+            "de": "Bedeutung"
+          },
+          "def": {
+            "fa": "یکی از معانی چندگانه یک مدخل",
+            "en": "One of multiple meanings of an entry",
+            "ar": "أحد معاني المدخل المتعددة",
+            "fr": "L'un des multiples sens d'une entrée",
+            "de": "Eine der mehreren Bedeutungen eines Eintrags"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "name": {
+        "fa": "استانداردهای علمی",
+        "en": "Scientific Standards",
+        "ar": "المعايير العلمية",
+        "fr": "Normes scientifiques",
+        "de": "Wissenschaftliche Standards"
+      },
+      "terms": [
+        {
+          "id": "lmf",
+          "term": { "fa": "LMF", "en": "LMF", "ar": "LMF", "fr": "LMF", "de": "LMF" },
+          "def": {
+            "fa": "Lexical Markup Framework — استاندارد مدل‌سازی داده‌های واژگانی",
+            "en": "Lexical Markup Framework — standard for lexical data modeling",
+            "ar": "إطار ترميز المعجم — معيار نمذجة البيانات المعجمية",
+            "fr": "Lexical Markup Framework — norme de modélisation des données lexicales",
+            "de": "Lexical Markup Framework — Standard zur Modellierung lexikalischer Daten"
+          }
+        },
+        {
+          "id": "tei",
+          "term": { "fa": "TEI", "en": "TEI", "ar": "TEI", "fr": "TEI", "de": "TEI" },
+          "def": {
+            "fa": "Text Encoding Initiative — استاندارد رمزگذاری متون علمی",
+            "en": "Text Encoding Initiative — standard for encoding scholarly texts",
+            "ar": "مبادرة ترميز النصوص — معيار ترميز النصوص العلمية",
+            "fr": "Text Encoding Initiative — norme d'encodage des textes savants",
+            "de": "Text Encoding Initiative — Standard zur Kodierung wissenschaftlicher Texte"
+          }
+        },
+        {
+          "id": "cldf",
+          "term": { "fa": "CLDF", "en": "CLDF", "ar": "CLDF", "fr": "CLDF", "de": "CLDF" },
+          "def": {
+            "fa": "Cross-Linguistic Data Formats — قالب داده‌های بینازبانی",
+            "en": "Cross-Linguistic Data Formats — cross-linguistic data formats",
+            "ar": "صيغ البيانات عبر اللغات",
+            "fr": "Cross-Linguistic Data Formats — formats de données interlinguistiques",
+            "de": "Cross-Linguistic Data Formats — sprachübergreifende Datenformate"
+          }
+        },
+        {
+          "id": "glottolog",
+          "term": { "fa": "Glottolog", "en": "Glottolog", "ar": "Glottolog", "fr": "Glottolog", "de": "Glottolog" },
+          "def": {
+            "fa": "پایگاه جهانی زبان‌ها؛ کد بختیاری: bakh1245",
+            "en": "Global language catalog; Bakhtiari code: bakh1245",
+            "ar": "قاعدة عالمية للغات؛ رمز البختيارية: bakh1245",
+            "fr": "Catalogue mondial des langues ; code bakhtiari : bakh1245",
+            "de": "Weltweiter Sprachkatalog; Bakhtiari-Code: bakh1245"
+          }
+        },
+        {
+          "id": "iso639-3",
+          "term": { "fa": "ISO 639-3", "en": "ISO 639-3", "ar": "ISO 639-3", "fr": "ISO 639-3", "de": "ISO 639-3" },
+          "def": {
+            "fa": "استاندارد کد سه‌حرفی زبان‌ها؛ کد بختیاری: bqi",
+            "en": "Three-letter language code standard; Bakhtiari code: bqi",
+            "ar": "معيار الرمز الثلاثي للغات؛ رمز البختيارية: bqi",
+            "fr": "Norme de code à trois lettres ; code bakhtiari : bqi",
+            "de": "Standard für dreistellige Sprachcodes; Bakhtiari-Code: bqi"
+          }
+        },
+        {
+          "id": "elar",
+          "term": { "fa": "ELAR", "en": "ELAR", "ar": "ELAR", "fr": "ELAR", "de": "ELAR" },
+          "def": {
+            "fa": "Endangered Languages Archive — آرشیو زبان‌های در خطر",
+            "en": "Endangered Languages Archive — archive for endangered languages",
+            "ar": "أرشيف اللغات المهددة بالاندثار",
+            "fr": "Endangered Languages Archive — archive des langues en danger",
+            "de": "Endangered Languages Archive — Archiv bedrohter Sprachen"
+          }
+        },
+        {
+          "id": "elan",
+          "term": { "fa": "ELAN", "en": "ELAN", "ar": "ELAN", "fr": "ELAN", "de": "ELAN" },
+          "def": {
+            "fa": "نرم‌افزار حاشیه‌نویسی صوتی-تصویری",
+            "en": "Audio-video annotation software",
+            "ar": "برنامج لتعليق الصوت والفيديو",
+            "fr": "Logiciel d'annotation audio-vidéo",
+            "de": "Software zur Audio-Video-Annotation"
+          }
+        },
+        {
+          "id": "imdi",
+          "term": { "fa": "IMDI", "en": "IMDI", "ar": "IMDI", "fr": "IMDI", "de": "IMDI" },
+          "def": {
+            "fa": "ISLE Metadata Initiative — استاندارد فراداده آرشیو زبان",
+            "en": "ISLE Metadata Initiative — metadata standard for language archives",
+            "ar": "مبادرة البيانات الوصفية لأرشيف اللغات",
+            "fr": "ISLE Metadata Initiative — norme de métadonnées pour les archives linguistiques",
+            "de": "ISLE Metadata Initiative — Metadatenstandard für Spracharchive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name": {
+        "fa": "اصطلاحات فنی",
+        "en": "Technical Terms",
+        "ar": "المصطلحات التقنية",
+        "fr": "Termes techniques",
+        "de": "Technische Begriffe"
+      },
+      "terms": [
+        {
+          "id": "api",
+          "term": {
+            "fa": "API",
+            "en": "API",
+            "ar": "واجهة برمجة التطبيقات",
+            "fr": "API",
+            "de": "API"
+          },
+          "def": {
+            "fa": "Application Programming Interface — رابط برنامه‌نویسی برای دسترسی به داده‌ها",
+            "en": "Application Programming Interface — programming interface for data access",
+            "ar": "واجهة برمجة التطبيقات — واجهة للوصول إلى البيانات",
+            "fr": "Application Programming Interface — interface de programmation pour l'accès aux données",
+            "de": "Application Programming Interface — Programmierschnittstelle für den Datenzugriff"
+          }
+        },
+        {
+          "id": "database",
+          "term": {
+            "fa": "پایگاه داده",
+            "en": "database",
+            "ar": "قاعدة بيانات",
+            "fr": "base de données",
+            "de": "Datenbank"
+          },
+          "def": {
+            "fa": "محل ذخیره‌سازی ساختاریافته مدخل‌ها",
+            "en": "Structured storage of entries",
+            "ar": "مكان تخزين منظم للمدخلات",
+            "fr": "Stockage structuré des entrées",
+            "de": "Strukturierte Speicherung von Einträgen"
+          }
+        },
+        {
+          "id": "rag",
+          "term": {
+            "fa": "RAG",
+            "en": "RAG",
+            "ar": "التوليد المعزَّز بالاسترجاع",
+            "fr": "RAG",
+            "de": "RAG"
+          },
+          "def": {
+            "fa": "Retrieval-Augmented Generation — روش هوش مصنوعی که پاسخ را از داده‌های بازیابی‌شده می‌سازد",
+            "en": "Retrieval-Augmented Generation — an AI method generating responses from retrieved data",
+            "ar": "التوليد المعزَّز بالاسترجاع — أسلوب ذكاء اصطناعي يبني الإجابة من بيانات مسترجعة",
+            "fr": "Retrieval-Augmented Generation — méthode d'IA générant des réponses à partir de données récupérées",
+            "de": "Retrieval-Augmented Generation — eine KI-Methode, die Antworten aus abgerufenen Daten erzeugt"
+          }
+        },
+        {
+          "id": "lora",
+          "term": {
+            "fa": "LoRA",
+            "en": "LoRA",
+            "ar": "LoRA",
+            "fr": "LoRA",
+            "de": "LoRA"
+          },
+          "def": {
+            "fa": "Low-Rank Adaptation — روش آموزش بهینه مدل‌های زبانی",
+            "en": "Low-Rank Adaptation — efficient training method for language models",
+            "ar": "التكيّف منخفض الرتبة — أسلوب تدريب فعّال لنماذج اللغة",
+            "fr": "Low-Rank Adaptation — méthode d'entraînement efficace pour modèles de langue",
+            "de": "Low-Rank Adaptation — effiziente Trainingsmethode für Sprachmodelle"
+          }
+        },
+        {
+          "id": "pwa",
+          "term": {
+            "fa": "PWA",
+            "en": "PWA",
+            "ar": "تطبيق ويب تقدّمي",
+            "fr": "PWA",
+            "de": "PWA"
+          },
+          "def": {
+            "fa": "Progressive Web App — وب‌اپ نصب‌پذیر و آفلاین",
+            "en": "Progressive Web App — installable offline web application",
+            "ar": "تطبيق ويب تقدّمي — تطبيق ويب قابل للتثبيت ويعمل دون اتصال",
+            "fr": "Progressive Web App — application web installable et hors ligne",
+            "de": "Progressive Web App — installierbare Offline-Webanwendung"
+          }
+        },
+        {
+          "id": "cicd",
+          "term": {
+            "fa": "CI/CD",
+            "en": "CI/CD",
+            "ar": "التكامل والتسليم المستمر",
+            "fr": "CI/CD",
+            "de": "CI/CD"
+          },
+          "def": {
+            "fa": "Continuous Integration / Delivery — یکپارچه‌سازی و تحویل خودکار",
+            "en": "Continuous Integration / Delivery — automated integration and delivery",
+            "ar": "التكامل والتسليم المستمر — أتمتة التكامل والتسليم",
+            "fr": "Continuous Integration / Delivery — intégration et livraison automatisées",
+            "de": "Continuous Integration / Delivery — automatisierte Integration und Auslieferung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "publishing",
+      "name": {
+        "fa": "انتشار و آرشیو",
+        "en": "Publishing and Archiving",
+        "ar": "النشر والأرشفة",
+        "fr": "Publication et archivage",
+        "de": "Publikation und Archivierung"
+      },
+      "terms": [
+        {
+          "id": "doi",
+          "term": { "fa": "DOI", "en": "DOI", "ar": "DOI", "fr": "DOI", "de": "DOI" },
+          "def": {
+            "fa": "Digital Object Identifier — شناسه پایدار دیجیتال",
+            "en": "Digital Object Identifier — persistent digital identifier",
+            "ar": "معرّف الكائن الرقمي — معرّف رقمي دائم",
+            "fr": "Digital Object Identifier — identifiant numérique persistant",
+            "de": "Digital Object Identifier — dauerhafte digitale Kennung"
+          }
+        },
+        {
+          "id": "zenodo",
+          "term": { "fa": "Zenodo", "en": "Zenodo", "ar": "Zenodo", "fr": "Zenodo", "de": "Zenodo" },
+          "def": {
+            "fa": "آرشیو علمی CERN (DOI اصلی پروژه)",
+            "en": "CERN scientific archive (primary project DOI)",
+            "ar": "أرشيف CERN العلمي (المعرّف الرئيسي للمشروع)",
+            "fr": "Archive scientifique du CERN (DOI principal du projet)",
+            "de": "Wissenschaftliches Archiv des CERN (primäre Projekt-DOI)"
+          }
+        },
+        {
+          "id": "figshare",
+          "term": { "fa": "Figshare", "en": "Figshare", "ar": "Figshare", "fr": "Figshare", "de": "Figshare" },
+          "def": {
+            "fa": "آرشیو علمی جایگزین (DOI دوم)",
+            "en": "Secondary scientific archive (second DOI)",
+            "ar": "أرشيف علمي بديل (المعرّف الثاني)",
+            "fr": "Archive scientifique secondaire (second DOI)",
+            "de": "Sekundäres wissenschaftliches Archiv (zweite DOI)"
+          }
+        },
+        {
+          "id": "cc-by",
+          "term": { "fa": "CC-BY-4.0", "en": "CC-BY-4.0", "ar": "CC-BY-4.0", "fr": "CC-BY-4.0", "de": "CC-BY-4.0" },
+          "def": {
+            "fa": "مجوز کریتیو کامانز — استفاده آزاد با ذکر منبع",
+            "en": "Creative Commons license — free use with attribution",
+            "ar": "رخصة المشاع الإبداعي — استخدام حر مع الإشارة إلى المصدر",
+            "fr": "Licence Creative Commons — utilisation libre avec attribution",
+            "de": "Creative-Commons-Lizenz — freie Nutzung mit Namensnennung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "name": {
+        "fa": "حقوقی و اخلاقی",
+        "en": "Legal and Ethical",
+        "ar": "قانوني وأخلاقي",
+        "fr": "Juridique et éthique",
+        "de": "Rechtlich und ethisch"
+      },
+      "terms": [
+        {
+          "id": "consent",
+          "term": {
+            "fa": "رضایت‌نامه",
+            "en": "consent form",
+            "ar": "نموذج الموافقة",
+            "fr": "formulaire de consentement",
+            "de": "Einwilligungsformular"
+          },
+          "def": {
+            "fa": "فرم کتبی موافقت گویشور",
+            "en": "Written consent form from the speaker",
+            "ar": "نموذج موافقة مكتوبة من المتحدث",
+            "fr": "Formulaire de consentement écrit du locuteur",
+            "de": "Schriftliche Einwilligung des Sprechers"
+          }
+        },
+        {
+          "id": "accessibility",
+          "term": {
+            "fa": "دسترس‌پذیری",
+            "en": "accessibility",
+            "ar": "إمكانية الوصول",
+            "fr": "accessibilité",
+            "de": "Barrierefreiheit"
+          },
+          "def": {
+            "fa": "طراحی برای همه کاربران",
+            "en": "Design for all users",
+            "ar": "التصميم لجميع المستخدمين",
+            "fr": "Conception pour tous les utilisateurs",
+            "de": "Gestaltung für alle Nutzer"
+          }
+        },
+        {
+          "id": "oral-evidence",
+          "term": {
+            "fa": "شواهد شفاهی",
+            "en": "oral evidence",
+            "ar": "الأدلة الشفهية",
+            "fr": "témoignages oraux",
+            "de": "mündliche Zeugnisse"
+          },
+          "def": {
+            "fa": "ضبط‌های صوتی گویشوران",
+            "en": "Audio recordings of speakers",
+            "ar": "تسجيلات صوتية للمتحدثين",
+            "fr": "Enregistrements audio des locuteurs",
+            "de": "Audioaufnahmen der Sprecher"
+          }
+        },
+        {
+          "id": "ich",
+          "term": {
+            "fa": "میراث ناملموس",
+            "en": "Intangible Cultural Heritage (ICH)",
+            "ar": "التراث الثقافي غير المادي",
+            "fr": "Patrimoine culturel immatériel (PCI)",
+            "de": "Immaterielles Kulturerbe (IKE)"
+          },
+          "def": {
+            "fa": "میراث فرهنگی غیرمادی؛ موضوع پرونده یونسکو",
+            "en": "Non-material cultural heritage; subject of the UNESCO dossier",
+            "ar": "التراث الثقافي غير المادي؛ موضوع ملف اليونسكو",
+            "fr": "Patrimoine culturel immatériel ; objet du dossier UNESCO",
+            "de": "Immaterielles Kulturerbe; Gegenstand des UNESCO-Dossiers"
+          }
+        },
+        {
+          "id": "ich-02",
+          "term": {
+            "fa": "ICH-02",
+            "en": "ICH-02",
+            "ar": "ICH-02",
+            "fr": "ICH-02",
+            "de": "ICH-02"
+          },
+          "def": {
+            "fa": "فرم رسمی ثبت یونسکو",
+            "en": "UNESCO official nomination form",
+            "ar": "نموذج الترشيح الرسمي لدى اليونسكو",
+            "fr": "Formulaire officiel de candidature UNESCO",
+            "de": "Offizielles UNESCO-Nominierungsformular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "motto",
+      "name": {
+        "fa": "شعار پروژه",
+        "en": "Project Motto",
+        "ar": "شعار المشروع",
+        "fr": "Devise du projet",
+        "de": "Projektmotto"
+      },
+      "translations": {
+        "fa": "صدای زاگرس، میراث فردا.",
+        "en": "Voice of the Zagros, Heritage of Tomorrow.",
+        "ar": "صوت زاغروس، تراث الغد.",
+        "fr": "La voix du Zagros, le patrimoine de demain.",
+        "de": "Die Stimme des Zagros, das Erbe von morgen."
+      }
+    }
+  ]
+}
