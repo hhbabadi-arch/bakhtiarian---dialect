@@ -1,1 +1,23 @@
 
+# جدول بریل فارسی — نسخه ساده‌شده بر پایه fa-ir-g1.utb
+# توجه: نیازمند بازبینی توسط متخصص بریل فارسی
+
+include fa-ir-g1.utb
+
+# علائم نگارشی فارسی
+punctuation \x060C 2      # ،
+punctuation \x061B 23     # ؛
+punctuation \x061F 26     # ؟
+punctuation \x0640 36     # ـ
+
+# اعداد فارسی (کدهای U+06F0–U+06F9)
+digit ۰ 2456
+digit ۱ 1
+digit ۲ 12
+digit ۳ 14
+digit ۴ 145
+digit ۵ 15
+digit ۶ 124
+digit ۷ 1245
+digit ۸ 125
+digit ۹ 24
