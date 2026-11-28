@@ -1,1 +1,22 @@
 
+{
+  "chapter": 3,
+  "images": [
+    {
+      "id": "IMG-KUHRANG-001",
+      "location": "دهنو سفلی، کوهرنگ",
+      "coordinates": [32.44333, 50.20139],
+      "caption_fa": "نمای روستای دهنو سفلی و ارتفاعات زاگرس",
+      "caption_en": "View of Dehno Sofla village and Zagros highlands",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "IMG-KUHRANG-002",
+      "location": "تنگه قربان (دنگ قربان)",
+      "coordinates": [32.4397, 50.20139],
+      "caption_fa": "محوطه دنگ قربان — ثبت ملی ۲۶۳۱۶",
+      "caption_en": "Dang-e Qorban site — National Registry 26316",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}
