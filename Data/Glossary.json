@@ -413,3 +413,32 @@
     }
   ]
 }
+# api/routes/glossary.py
+import json
+from pathlib import Path
+from fastapi import APIRouter, HTTPException
+
+router = APIRouter(prefix="/glossary", tags=["glossary"])
+GLOSSARY = json.loads(Path("data/glossary.json").read_text(encoding="utf-8"))
+
+@router.get("/")
+def get_glossary():
+    return GLOSSARY
+
+@router.get("/{category_id}")
+def get_category(category_id: str):
+    for cat in GLOSSARY["categories"]:
+        if cat["id"] == category_id:
+            return cat
+    raise HTTPException(404, "Category not found")
+
+@router.get("/search/{query}")
+def search_glossary(query: str):
+    q = query.lower()
+    results = []
+    for cat in GLOSSARY["categories"]:
+        for term in cat.get("terms", []):
+            haystack = " ".join(str(v) for v in term.values() if isinstance(v, str)).lower()
+            if q in haystack:
+                results.append({"category": cat["id"], "term": term})
+    return {"query": query, "count": len(results), "results": results}
