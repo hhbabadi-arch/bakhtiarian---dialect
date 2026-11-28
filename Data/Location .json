@@ -1,1 +1,46 @@
-
+{
+  "version": "1.0",
+  "locations": [
+    {
+      "id": "LOC-KUHRANG-001",
+      "name_fa": "دهنو سفلی",
+      "name_en": "Dehno Sofla",
+      "type": "village",
+      "coordinates": [32.44333, 50.20139],
+      "region": "کوهرنگ، چهارمحال و بختیاری",
+      "description_fa": "روستای هدف گردشگری با چشم‌انداز طبیعی کوهستانی",
+      "description_en": "Tourism village with mountainous natural landscape",
+      "related_lexemes": ["LEX-2026-KUH-001", "LEX-2026-DARAK-001"]
+    },
+    {
+      "id": "LOC-KUHRANG-002",
+      "name_fa": "تنگه قربان (دنگ قربان)",
+      "name_en": "Qorban Gorge (Dang-e Qorban)",
+      "type": "archaeological_site",
+      "coordinates": [32.4397, 50.20139],
+      "national_registry": "26316",
+      "period": "هخامنشی تا عصر آهن",
+      "region": "کوهرنگ",
+      "description_fa": "محوطه تاریخی در ۴۰۰ متری جنوب دهنوی پایین، نزدیک چم سوخته",
+      "description_en": "Archaeological site 400m south of Dehno-ye Pain, near Cham-e Sukhte",
+      "related_lexemes": [
+        "LEX-2026-TANGE-001",
+        "LEX-2026-DANG-001",
+        "LEX-2026-CHAM-001",
+        "LEX-2026-SUKHTE-001",
+        "LEX-2026-QORBAN-001"
+      ]
+    },
+    {
+      "id": "LOC-KUHRANG-003",
+      "name_fa": "گورستان دهنو سفلی",
+      "name_en": "Dehno Sofla Cemetery",
+      "type": "cemetery",
+      "national_registry": "12864",
+      "period": "قاجار",
+      "region": "کوهرنگ",
+      "description_fa": "گورستان تاریخی دوره قاجار با کتیبه‌های فارسی",
+      "description_en": "Qajar-era historical cemetery with Persian inscriptions"
+    }
+  ]
+}
