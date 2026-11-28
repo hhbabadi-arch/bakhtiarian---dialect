@@ -1,1 +1,6 @@
+FXL_EPUB := $(DIST_DIR)/bakhtiari-fxl.epub
 
+fxl: $(FXL_EPUB)
+
+$(FXL_EPUB): $(POCKET_PDF)
+	python3 scripts/build-fxl-epub.py $(POCKET_PDF) $(FXL_EPUB)
