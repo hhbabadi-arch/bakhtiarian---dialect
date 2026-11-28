@@ -1,1 +1,5 @@
-
+scripts/
+├── import/
+│   ├── import.py            ← اسکریپت اصلی
+│   ├── schema.sql           ← ساختار پایگاه داده
+│   └── requirements.txt
