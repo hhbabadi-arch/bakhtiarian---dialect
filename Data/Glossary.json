@@ -1,1 +1,415 @@
-
+{
+  "version": "1.3",
+  "generated": "2026-11-17",
+  "languages": ["fa", "en"],
+  "categories": [
+    {
+      "id": "linguistics",
+      "name_fa": "اصطلاحات زبان‌شناسی",
+      "name_en": "Linguistic Terms",
+      "terms": [
+        {
+          "term_fa": "مدخل",
+          "term_en": "entry",
+          "alt_en": ["lexeme"],
+          "definition_fa": "واحد اصلی فرهنگ؛ هر واژه با معنا، آوانگاری و مثال"
+        },
+        {
+          "term_fa": "آوانگاری",
+          "term_en": "transcription",
+          "definition_fa": "نمایش آوایی واژه با نمادهای استاندارد"
+        },
+        {
+          "term_fa": "هم‌ریخت گمراه‌کننده",
+          "term_en": "false friend",
+          "definition_fa": "واژه‌ای که در دو زبان شبیه است اما معنا متفاوت دارد"
+        },
+        {
+          "term_fa": "مشتق",
+          "term_en": "derivative",
+          "definition_fa": "واژه‌ای که از ریشه اصلی ساخته می‌شود"
+        },
+        {
+          "term_fa": "ترکیب",
+          "term_en": "compound",
+          "definition_fa": "دو یا چند واژه که یک واحد معنایی می‌سازند"
+        },
+        {
+          "term_fa": "فولکلور",
+          "term_en": "folklore",
+          "definition_fa": "ادبیات شفاهی؛ شامل ضرب‌المثل، بیت، روایت"
+        },
+        {
+          "term_fa": "گویشور",
+          "term_en": "speaker",
+          "definition_fa": "فرد بومی که به گویش صحبت می‌کند"
+        },
+        {
+          "term_fa": "ریشه‌شناسی",
+          "term_en": "etymology",
+          "definition_fa": "بررسی اصل و تاریخچه واژه"
+        },
+        {
+          "term_fa": "معنا",
+          "term_en": "sense",
+          "definition_fa": "یکی از معانی چندگانه یک مدخل"
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "name_fa": "استانداردهای علمی",
+      "name_en": "Scientific Standards",
+      "terms": [
+        {
+          "term": "LMF",
+          "definition_fa": "Lexical Markup Framework — استاندارد مدل‌سازی داده‌های واژگانی"
+        },
+        {
+          "term": "TEI",
+          "definition_fa": "Text Encoding Initiative — استاندارد رمزگذاری متون علمی"
+        },
+        {
+          "term": "CLDF",
+          "definition_fa": "Cross-Linguistic Data Formats — قالب داده‌های بینازبانی"
+        },
+        {
+          "term": "Glottolog",
+          "definition_fa": "پایگاه جهانی زبان‌ها؛ کد بختیاری: bakh1245"
+        },
+        {
+          "term": "ISO 639-3",
+          "definition_fa": "استاندارد کد سه‌حرفی زبان‌ها؛ کد بختیاری: bqi"
+        },
+        {
+          "term": "ELAR",
+          "definition_fa": "Endangered Languages Archive — آرشیو زبان‌های در خطر"
+        },
+        {
+          "term": "ELAN",
+          "definition_fa": "نرم‌افزار حاشیه‌نویسی صوتی-تصویری"
+        },
+        {
+          "term": "IMDI",
+          "definition_fa": "ISLE Metadata Initiative — استاندارد فراداده آرشیو زبان"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name_fa": "اصطلاحات فنی",
+      "name_en": "Technical Terms",
+      "terms": [
+        {
+          "term": "API",
+          "term_en": "Application Programming Interface",
+          "definition_fa": "رابط برنامه‌نویسی برای دسترسی به داده‌ها"
+        },
+        {
+          "term_fa": "پایگاه داده",
+          "term_en": "database",
+          "definition_fa": "محل ذخیره‌سازی ساختاریافته مدخل‌ها"
+        },
+        {
+          "term": "RAG",
+          "term_en": "Retrieval-Augmented Generation",
+          "definition_fa": "روش هوش مصنوعی که پاسخ را از داده‌های بازیابی‌شده می‌سازد"
+        },
+        {
+          "term": "LoRA",
+          "term_en": "Low-Rank Adaptation",
+          "definition_fa": "روش آموزش بهینه مدل‌های زبانی"
+        },
+        {
+          "term": "PWA",
+          "term_en": "Progressive Web App",
+          "definition_fa": "وب‌اپ نصب‌پذیر و آفلاین"
+        },
+        {
+          "term": "CI/CD",
+          "term_en": "Continuous Integration / Delivery",
+          "definition_fa": "یکپارچه‌سازی و تحویل خودکار"
+        },
+        {
+          "term": "XeLaTeX",
+          "definition_fa": "موتور حروف‌چینی LaTeX با پشتیبانی RTL"
+        },
+        {
+          "term": "Biber",
+          "definition_fa": "ابزار کتاب‌نامه برای BibLaTeX"
+        },
+        {
+          "term": "MiniSearch",
+          "definition_fa": "کتابخانه جست‌وجوی محلی آفلاین"
+        },
+        {
+          "term": "DocSearch",
+          "definition_fa": "جست‌وجوی آنلاین Algolia"
+        }
+      ]
+    },
+    {
+      "id": "publishing",
+      "name_fa": "اصطلاحات انتشار و آرشیو",
+      "name_en": "Publishing and Archiving",
+      "terms": [
+        {
+          "term": "DOI",
+          "definition_fa": "Digital Object Identifier — شناسه پایدار دیجیتال"
+        },
+        {
+          "term": "Zenodo",
+          "definition_fa": "آرشیو علمی CERN (DOI اصلی پروژه)"
+        },
+        {
+          "term": "Figshare",
+          "definition_fa": "آرشیو علمی جایگزین (DOI دوم)"
+        },
+        {
+          "term": "Internet Archive",
+          "definition_fa": "آرشیو بلندمدت (بدون DOI)"
+        },
+        {
+          "term": "CC-BY-4.0",
+          "definition_fa": "مجوز کریتیو کامانز — استفاده آزاد با ذکر منبع"
+        },
+        {
+          "term_fa": "فراداده",
+          "term_en": "metadata",
+          "definition_fa": "اطلاعات توصیفی درباره داده"
+        },
+        {
+          "term": "CITATION.cff",
+          "definition_fa": "فایل استاندارد استناد در گیت‌هاب"
+        }
+      ]
+    },
+    {
+      "id": "identifiers",
+      "name_fa": "شناسه‌های اختصاصی پروژه",
+      "name_en": "Project Identifiers",
+      "terms": [
+        {
+          "id": "REV-001",
+          "type": "revision",
+          "definition_fa": "تصحیح مدخل‌های «دَرَک»، «دِلَک»، «دَسگیر آویدَن»"
+        },
+        {
+          "id": "FOLK-KUHRANG-001",
+          "type": "folklore",
+          "definition_fa": "بیت «تال — یادگاری مو»"
+        },
+        {
+          "id": "LOC-KUHRANG-001",
+          "type": "location",
+          "definition_fa": "دهنو سفلی"
+        },
+        {
+          "id": "LOC-KUHRANG-002",
+          "type": "location",
+          "definition_fa": "تنگه قربان (دنگ قربان)"
+        },
+        {
+          "id": "LOC-KUHRANG-003",
+          "type": "location",
+          "definition_fa": "گورستان دهنو سفلی"
+        },
+        {
+          "id": "SPK-XX",
+          "type": "speaker",
+          "definition_fa": "کد ناشناس گویشور (SPK01 تا SPK19)"
+        }
+      ]
+    },
+    {
+      "id": "bakhtiari-words",
+      "name_fa": "واژه‌های بختیاری ثبت‌شده",
+      "name_en": "Recorded Bakhtiari Words",
+      "terms": [
+        {
+          "word": "دَرَک",
+          "ipa": "/daˈrak/",
+          "fa": "چوب بلوط",
+          "status": "approved",
+          "revision": "REV-001"
+        },
+        {
+          "word": "بی‌دَرَک",
+          "ipa": "/bi-daˈrak/",
+          "fa": "نپخته",
+          "status": "approved",
+          "revision": "REV-001"
+        },
+        {
+          "word": "دِلَک",
+          "ipa": "/deˈlak/",
+          "fa": "سپر، تکیه‌گاه",
+          "status": "approved",
+          "revision": "REV-001"
+        },
+        {
+          "word": "دَسگیر آویدَن",
+          "ipa": "/dæsˈgir ɒːviˈdæn/",
+          "fa": "درک کردن",
+          "status": "approved",
+          "revision": "REV-001"
+        },
+        {
+          "word": "تال",
+          "ipa": "/tɒːl/",
+          "fa": "تار مو",
+          "status": "pending_ipa",
+          "folklore_ref": "FOLK-KUHRANG-001"
+        },
+        {
+          "word": "مو",
+          "ipa": "/muː/",
+          "fa": "مو",
+          "status": "pending_ipa"
+        },
+        {
+          "word": "یادگاری",
+          "ipa": "/jɒːdegɒːriː/",
+          "fa": "یادگاری",
+          "status": "pending_ipa",
+          "folklore_ref": "FOLK-KUHRANG-001"
+        },
+        {
+          "word": "سی",
+          "ipa": "/siː/",
+          "fa": "برای",
+          "status": "pending_ipa",
+          "folklore_ref": "FOLK-KUHRANG-001"
+        },
+        {
+          "word": "تنگه",
+          "ipa": "/tæŋæ/",
+          "fa": "تنگه",
+          "status": "pending_ipa",
+          "location_ref": "LOC-KUHRANG-002"
+        },
+        {
+          "word": "دَنگ",
+          "ipa": "/dæŋg/",
+          "fa": "سازه سنگی",
+          "status": "pending_ipa",
+          "location_ref": "LOC-KUHRANG-002"
+        },
+        {
+          "word": "چَم",
+          "ipa": "/tʃæm/",
+          "fa": "رودخانه فصلی",
+          "status": "pending_ipa",
+          "location_ref": "LOC-KUHRANG-002"
+        },
+        {
+          "word": "سوخته",
+          "ipa": "/suːxte/",
+          "fa": "خشک‌شده",
+          "status": "pending_ipa",
+          "location_ref": "LOC-KUHRANG-002"
+        },
+        {
+          "word": "قربان",
+          "ipa": "/qorbɒːn/",
+          "fa": "نام محوطه",
+          "status": "pending_ipa",
+          "location_ref": "LOC-KUHRANG-002"
+        },
+        {
+          "word": "کوه",
+          "ipa": "/kuːh/",
+          "fa": "کوه",
+          "status": "pending_ipa"
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name_fa": "اصطلاحات جغرافیایی (کوهرنگ)",
+      "name_en": "Geographic Terms (Kuhrang)",
+      "terms": [
+        {
+          "term_fa": "کوهرنگ",
+          "definition_fa": "شهرستان در چهارمحال و بختیاری"
+        },
+        {
+          "term_fa": "دهنو سفلی",
+          "definition_fa": "روستای هدف گردشگری؛ مختصات ۳۲.۴۴۳۳۳، ۵۰.۲۰۱۳۹"
+        },
+        {
+          "term_fa": "تنگه قربان",
+          "definition_fa": "محوطه تاریخی؛ ثبت ملی ۲۶۳۱۶"
+        },
+        {
+          "term_fa": "چم سوخته",
+          "definition_fa": "رودخانه خشک‌شده نزدیک تنگه"
+        },
+        {
+          "term_fa": "گورستان دهنو",
+          "definition_fa": "گورستان دوره قاجار؛ ثبت ملی ۱۲۸۶۴"
+        },
+        {
+          "term_fa": "دوره هخامنشی",
+          "definition_fa": "۵۵۰–۳۳۰ پیش از میلاد"
+        },
+        {
+          "term_fa": "عصر آهن",
+          "definition_fa": "۱۲۰۰–۵۵۰ پیش از میلاد"
+        },
+        {
+          "term_fa": "دوره قاجار",
+          "definition_fa": "۱۷۸۹–۱۹۲۵ میلادی"
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "name_fa": "اصطلاحات حقوقی و اخلاقی",
+      "name_en": "Legal and Ethical Terms",
+      "terms": [
+        {
+          "term_fa": "رضایت‌نامه",
+          "term_en": "consent form",
+          "definition_fa": "فرم کتبی موافقت گویشور"
+        },
+        {
+          "term_fa": "دسترس‌پذیری",
+          "term_en": "accessibility",
+          "definition_fa": "طراحی برای همه کاربران"
+        },
+        {
+          "term_fa": "حریم خصوصی",
+          "term_en": "privacy",
+          "definition_fa": "حفاظت از داده‌های کاربران"
+        },
+        {
+          "term_fa": "شواهد شفاهی",
+          "term_en": "oral evidence",
+          "definition_fa": "ضبط‌های صوتی گویشوران"
+        },
+        {
+          "term_fa": "میراث ناملموس",
+          "term_en": "Intangible Cultural Heritage (ICH)",
+          "definition_fa": "میراث فرهنگی غیرمادی"
+        },
+        {
+          "term": "ICH-02",
+          "definition_fa": "فرم رسمی ثبت یونسکو"
+        }
+      ]
+    },
+    {
+      "id": "motto",
+      "name_fa": "شعار پروژه",
+      "name_en": "Project Motto",
+      "translations": {
+        "fa": "صدای زاگرس، میراث فردا.",
+        "en": "Voice of the Zagros, Heritage of Tomorrow.",
+        "ar": "صوت زاغروس، تراث الغد.",
+        "fr": "La voix du Zagros, le patrimoine de demain.",
+        "de": "Die Stimme des Zagros, das Erbe von morgen."
+      }
+    }
+  ]
+}
