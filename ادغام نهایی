@@ -1,1 +1,42 @@
+build-fxl:
+  name: Build Fixed-Layout EPUB
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v4
 
+    - name: Install deps
+      run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
+
+    - name: Download pocket PDF
+      uses: dawidd6/action-download-artifact@v6
+      with:
+        workflow: build.yml
+        name: bakhtiari-pocket
+        path: dist
+
+    - name: Build FXL EPUB
+      run: python3 scripts/build-fxl-epub.py dist/bakhtiari-pocket.pdf dist/bakhtiari-fxl.epub
+
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: bakhtiari-fxl
+        path: dist/bakhtiari-fxl.epub
+
+build-braille:
+  name: Build Braille (BRF)
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v4
+
+    - name: Install liblouis
+      run: sudo apt-get update -qq && sudo apt-get install -y liblouis-bin liblouis-data
+
+    - name: Build Braille
+      run: bash scripts/build-braille.sh
+
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: bakhtiari-braille
+        path: dist/braille/
