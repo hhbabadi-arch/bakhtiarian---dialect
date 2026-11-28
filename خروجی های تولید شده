@@ -1,1 +1,8 @@
 
+# فایل محتوا
+۱ scripts/import/schema.sql ساختار کامل ۱۱ جدول
+۲ scripts/import/import.py اسکریپت واردکردن JSON → DB
+۳ scripts/import/requirements.txt وابستگی‌ها
+۴ data/lexicon-quinquelingual.json ۱۴ مدخل پنج‌زبانه
+۵ data/bakhtiari.db پایگاه داده ساخته‌شده
+۶ جدول LaTeX پنج‌زبانه برای کتاب
