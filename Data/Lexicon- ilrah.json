@@ -1,1 +1,74 @@
-
+{
+  "version": "1.5",
+  "generated": "2026-11-21",
+  "entries": [
+    {
+      "id": "LEX-2026-ILRAH-001",
+      "lexeme": "ایلراه",
+      "ipa": "/ilˈrɒːh/",
+      "transliteration": "ilrāh",
+      "pos": "compound_noun",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "مسیر کوچ عشایر بین ییلاق و قشلاق",
+          "en": "nomadic migration route between summer and winter pastures",
+          "ar": "طريق ترحال القبائل بين المراعي الصيفية والشتوية",
+          "fr": "route de migration nomade entre pâturages d'été et d'hiver",
+          "de": "Nomadenwanderroute zwischen Sommer- und Winterweiden"
+        },
+        {
+          "sense_id": 2,
+          "fa": "راه ارتباطی ایلی",
+          "en": "tribal communication route",
+          "ar": "طريق اتصال قبلي",
+          "fr": "route de communication tribale",
+          "de": "Stammesverbindungsweg"
+        }
+      ],
+      "plural": {
+        "form": "ایلراهها",
+        "ipa": "/ilrɒːhɒː/"
+      },
+      "cultural_note_fa": "عشایر چهارمحال و بختیاری از پنج ایلراه اصلی برای رسیدن به خوزستان عبور می‌کنند. طولانی‌ترین ایلراه طایفه‌های بختیاری حدود ۴۰۰ کیلومتر است؛ از چناررود در سرحد تا سردشت گرمسیری. در گذشته هر شاخه از هفت‌لنگ و چهارلنگ ایلراه مشخصی داشت.",
+      "cultural_note_en": "Bakhtiari nomads of Chaharmahal va Bakhtiari use five main ilrāhs to reach Khuzestan. The longest ilrāh is about 400 km, from Chenar-rud in Sarhad to Sardasht in the warm region. Historically, each branch of the Haft-Lang and Chahar-Lang had its own specific route.",
+      "related_lexemes": ["LEX-2026-TITAMRAH-001"],
+      "related_locations": ["LOC-KUHRANG-001", "LOC-KUHRANG-002"],
+      "region": "چهارمحال و بختیاری",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    },
+    {
+      "id": "LEX-2026-TITAMRAH-001",
+      "lexeme": "تیتم ره",
+      "ipa": "/tiːˈtæm ræh/",
+      "transliteration": "titam rah",
+      "pos": "noun_phrase",
+      "senses": [
+        {
+          "sense_id": 1,
+          "fa": "راه باریک و سخت‌گذر در کوهستان",
+          "en": "narrow, difficult mountain path",
+          "ar": "طريق جبلي ضيق وصعب",
+          "fr": "sentier de montagne étroit et difficile",
+          "de": "enger, schwieriger Bergpfad"
+        },
+        {
+          "sense_id": 2,
+          "fa": "مسیر پرپیچ‌وخم کوچ",
+          "en": "winding migration path",
+          "ar": "مسار ترحال متعرّج",
+          "fr": "chemin de migration sinueux",
+          "de": "gewundener Wanderweg"
+        }
+      ],
+      "cultural_note_fa": "اصطلاح بومی برای سخت‌ترین بخش‌های ایلراه؛ مسیرهایی با عرض گاهی فقط ۱.۵ متر در دل کوه‌های زاگرس. «ره» صورت محاوره‌ای «راه» در بختیاری است.",
+      "cultural_note_en": "Colloquial term for the most difficult sections of the ilrāh; paths sometimes only 1.5 m wide through the Zagros. 'ra' is the colloquial form of 'rāh' (road) in Bakhtiari.",
+      "related_lexemes": ["LEX-2026-ILRAH-001", "LEX-2026-TANGE-001"],
+      "related_locations": ["LOC-KUHRANG-002"],
+      "region": "چهارمحال و بختیاری",
+      "status": "proposed",
+      "ipa_status": "pending_review"
+    }
+  ]
+}
