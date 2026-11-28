@@ -20,3 +20,21 @@
 \bottomrule
 \end{tabularx}
 \endgroup
+\section{واژه‌ها در چهار زبان}
+\bilingualhead{}{Words in Four Languages}
+
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{2.3cm} l >{\raggedright\arraybackslash}p{2.2cm} >{\raggedright\arraybackslash}p{2.2cm} X@{}}
+\toprule
+\textbf{بختیاری} & \textbf{IPA} & \textbf{فارسی} & \textbf{English} & \textbf{العربیة} \\
+\midrule
+دَرَک & {\ipafont /daˈrak/} & چوب بلوط & oak wood & خشب البلوط \\
+دِلَک & {\ipafont /deˈlak/} & سپر، تکیه‌گاه & shield, support & دِرع، سند \\
+دَسگیر آویدَن & {\ipafont /dæsˈgir ɒːviˈdæn/} & درک کردن & to understand & أن يفهم \\
+تال & {\ipafont /tɒːl/} & تار مو & strand of hair & خصلة شعر \\
+یادگاری & {\ipafont /jɒːdegɒːriː/} & یادگاری & keepsake & تذكار \\
+تنگه & {\ipafont /tæŋæ/} & تنگه & gorge & مَضيق \\
+دَنگ & {\ipafont /dæŋg/} & سازه سنگی & stone structure & بناء حجري \\
+چَم & {\ipafont /tʃæm/} & رودخانه فصلی & seasonal river & نهر موسمي \\
+سوخته & {\ipafont /suːxte/} & خشک‌شده & dried up & جافّ \\
+\bottomrule
+\end{tabularx}
